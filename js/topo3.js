@@ -170,7 +170,7 @@ function insertFooter() {
         if (siteTitle.length && siteUrl.length) {
             footer += '<a href="' + siteUrl + '">' + siteTitle + '</a> Network Topology ';
         }
-        footer += 'created by TOPO3';
+        footer += 'created by <a href="https://github.com/mmunz/TOPO3">TOPO3</a>';
         footer += '</div>';
         footer += '<div id="topo3-meta">';
         footer += 'Generated on <span id="topo3-generated-on"></span> by <span id="topo3-generated-by">';
