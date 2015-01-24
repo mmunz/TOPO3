@@ -94,7 +94,7 @@ function drawGraph(json) {
 }
 
 function loadGraph() {
-    $.getJSON("data.json")
+    $.getJSON("topo3.json")
             .done(function(json) {
                 meta = json['meta'];
                 drawGraph(json);
