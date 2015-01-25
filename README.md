@@ -15,7 +15,7 @@ Depencies:
 
 ## Demo
 
-soon
+http://augsburg.freifunk.net/TOPO3
 
 
 
