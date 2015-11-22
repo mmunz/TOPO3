@@ -159,7 +159,7 @@ function insertHeader() {
         controls += '<button id="toggle-icvpn" class="btn" onclick="toggleIcvpn()">' + btnIcvpnLabel + '</button>';
         controls += '<input id="search-node" name="search-node" placeholder="Search (IP or hostname)" />';
         controls += '</div>';
-        $('#' + targetDiv).before('<div id="header">' + controls + '</div>');
+        $('#' + targetDiv).before('<div id="topo3-header">' + controls + '</div>');
     }
 }
 
@@ -189,7 +189,7 @@ function updateStats() {
     if ($('#topo3-stats').length > 0) {
         $("#topo3-stats").html(stats);
     } else {
-        $("#header").prepend('<div id="topo3-stats">' + stats + '</div>');
+        $("#topo3-header").prepend('<div id="topo3-stats">' + stats + '</div>');
     }
 }
 
